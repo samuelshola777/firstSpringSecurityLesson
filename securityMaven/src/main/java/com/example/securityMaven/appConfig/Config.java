@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class Config {
 @Value("${spring.datasource.username}")
     private String dataBaseUserName;
+
 @Value("${spring.datasource.password}")
     private String dataBasePassword;
 
