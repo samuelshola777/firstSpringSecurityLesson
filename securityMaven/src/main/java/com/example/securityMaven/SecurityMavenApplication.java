@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SecurityMavenApplication {
 
-	private static final String LOGSECRET_KEY = "";
+	private static final String SECRET_KEY = "FA1D97D28C6C3AD1127B6BE724424";
 	public static void main(String[] args) {
 		SpringApplication.run(SecurityMavenApplication.class, args);
 	}
