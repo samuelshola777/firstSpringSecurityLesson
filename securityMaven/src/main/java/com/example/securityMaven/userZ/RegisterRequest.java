@@ -3,8 +3,6 @@ package com.example.securityMaven.userZ;
 import lombok.*;
 
 @Data
-@RequiredArgsConstructor
-@NoArgsConstructor
 @Builder
 @AllArgsConstructor
 public class RegisterRequest {
